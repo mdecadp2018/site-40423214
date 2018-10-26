@@ -2,6 +2,8 @@
 
 網站 :https://mdecadp2018.github.io/site-40423214
 
-Onshape : https://cad.onshape.com/signin
+網誌 :https://mdecadp2018.github.io/site-40423214/blog/index.html
 
-Blog : https://mdecadp2018.github.io/site-40423214/blog/index.html
+倉儲 :https://github.com/mdecadp2018/site-40423214
+
+Onshape: https://cad.onshape.com/signin
