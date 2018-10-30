@@ -17,7 +17,7 @@
 <v t="leo.20180115150519.1"><vh>@edit index.html</vh></v>
 <v t="yen.20170108171733.3"><vh>@edit README.md</vh></v>
 <v t="yen.20170108171733.4"><vh>@edit .gitignore</vh></v>
-<v t="leo.20170908162839.1"><vh>沒有 disqus 論壇</vh>
+<v t="leo.20170908162839.1" a="E"><vh>沒有 disqus 論壇</vh>
 <v t="yen.20170108171733.2"><vh>@button local-blog</vh></v>
 </v>
 <v t="leo.20170908162904.1"><vh>有 disqus 論壇</vh>
@@ -74,7 +74,6 @@
 <v t="leo.20181012111157.1"><vh>@edit 20180928.md</vh></v>
 <v t="leo.20181012111159.1"><vh>@edit 20181005.md</vh></v>
 <v t="leo.20181012111203.1"><vh>@edit 20181012.md</vh></v>
-<v t="leo.20181030213608.1"><vh>@edit 20181019.md</vh></v>
 </v>
 </v>
 </v>
