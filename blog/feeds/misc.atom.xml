@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="https://mdecadp2018.github.io/site-40423214/blog/" rel="alternate"></link><link href="https://mdecadp2018.github.io/site-40423214/blog/feeds/misc.atom.xml" rel="self"></link><id>https://mdecadp2018.github.io/site-40423214/blog/</id><updated>2018-10-12T11:00:00+08:00</updated><entry><title>2018 Fall W5 BLOG</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog-W5.html" rel="alternate"></link><published>2018-10-12T11:00:00+08:00</published><updated>2018-10-12T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:mdecadp2018.github.io,2018-10-12:/site-40423214/blog/2018-Fall-Project-Blog-W5.html</id><summary type="html">&lt;h2&gt;Github 更新版本&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>機械設計工程系 2018 Fall 分組網誌 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2018-10-19T11:00:00+08:00</updated><entry><title>2018 Fall W6 BLOG</title><link href="./2018-Fall-Project-Blog-W6.html" rel="alternate"></link><published>2018-10-19T11:00:00+08:00</published><updated>2018-10-19T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-10-19:./2018-Fall-Project-Blog-W6.html</id><summary type="html">&lt;h2&gt;Github 更新版本&lt;/h2&gt;
 </summary><content type="html">&lt;h2&gt;Github 更新版本&lt;/h2&gt;
 
 
@@ -7,24 +7,32 @@
 2.15.1.window.1-----&amp;gt;2.19.1.window.1&lt;/p&gt;
 &lt;p&gt;輸入git version便可檢查自己的git系統是否為最新版本。&lt;/p&gt;
 &lt;p&gt;貼心小提醒:
-version=版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W4 BLOG</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog-W4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:mdecadp2018.github.io,2018-10-05:/site-40423214/blog/2018-Fall-Project-Blog-W4.html</id><summary type="html">&lt;h2&gt;Happy week!!!!&lt;/h2&gt;
+version=版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W5 BLOG</title><link href="./2018-Fall-Project-Blog-W5.html" rel="alternate"></link><published>2018-10-12T11:00:00+08:00</published><updated>2018-10-12T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-10-12:./2018-Fall-Project-Blog-W5.html</id><summary type="html">&lt;h2&gt;Github 更新版本&lt;/h2&gt;
+</summary><content type="html">&lt;h2&gt;Github 更新版本&lt;/h2&gt;
+
+
+&lt;p&gt;將git的版本從
+2.15.1.window.1-----&amp;gt;2.19.1.window.1&lt;/p&gt;
+&lt;p&gt;輸入git version便可檢查自己的git系統是否為最新版本。&lt;/p&gt;
+&lt;p&gt;貼心小提醒:
+version=版本&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W4 BLOG</title><link href="./2018-Fall-Project-Blog-W4.html" rel="alternate"></link><published>2018-10-05T11:00:00+08:00</published><updated>2018-10-05T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-10-05:./2018-Fall-Project-Blog-W4.html</id><summary type="html">&lt;h2&gt;Happy week!!!!&lt;/h2&gt;
 </summary><content type="html">&lt;h2&gt;Happy week!!!!&lt;/h2&gt;
 
 
-&lt;h2&gt;Enjoy your weekend !&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W3 BLOG</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog-W3.html" rel="alternate"></link><published>2018-09-28T11:00:00+08:00</published><updated>2018-09-28T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:mdecadp2018.github.io,2018-09-28:/site-40423214/blog/2018-Fall-Project-Blog-W3.html</id><summary type="html">&lt;h2&gt;倉儲版本管理&lt;/h2&gt;
+&lt;h2&gt;Enjoy your weekend !&lt;/h2&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W3 BLOG</title><link href="./2018-Fall-Project-Blog-W3.html" rel="alternate"></link><published>2018-09-28T11:00:00+08:00</published><updated>2018-09-28T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-09-28:./2018-Fall-Project-Blog-W3.html</id><summary type="html">&lt;h2&gt;倉儲版本管理&lt;/h2&gt;
 </summary><content type="html">&lt;h2&gt;倉儲版本管理&lt;/h2&gt;
 
 
 &lt;p&gt;在未來工作上，電腦、網路一定是不可或缺的，一項企劃得執行也不可能依靠一己之力去完成，因此企劃中在各階段裡的不同版本，工作交接的新舊版本如何管理便很重要了。&lt;/p&gt;
-&lt;p&gt;這週就是在教如何利用基礎的git 指令進行版本管理，使用git log就能很快地找出各分支中的新舊版本，也可以搜尋任一版本的代號，利用git checkout切換到該版本進行修改。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W2 BLOG</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog-W2.html" rel="alternate"></link><published>2018-09-21T11:00:00+08:00</published><updated>2018-09-21T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:mdecadp2018.github.io,2018-09-21:/site-40423214/blog/2018-Fall-Project-Blog-W2.html</id><summary type="html">&lt;h2&gt;p37可攜式系統&lt;/h2&gt;
+&lt;p&gt;這週就是在教如何利用基礎的git 指令進行版本管理，使用git log就能很快地找出各分支中的新舊版本，也可以搜尋任一版本的代號，利用git checkout切換到該版本進行修改。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W2 BLOG</title><link href="./2018-Fall-Project-Blog-W2.html" rel="alternate"></link><published>2018-09-21T11:00:00+08:00</published><updated>2018-09-21T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-09-21:./2018-Fall-Project-Blog-W2.html</id><summary type="html">&lt;h2&gt;p37可攜式系統&lt;/h2&gt;
 </summary><content type="html">&lt;h2&gt;p37可攜式系統&lt;/h2&gt;
 
 
-&lt;p&gt;p37可攜式系統，是一個不管在課堂中、或是在家裡，只要有電腦，插上隨身碟便能馬上利用p37進行作業的一個移動式系統，&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W1 BLOG</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog-W1.html" rel="alternate"></link><published>2018-09-14T11:00:00+08:00</published><updated>2018-09-14T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:mdecadp2018.github.io,2018-09-14:/site-40423214/blog/2018-Fall-Project-Blog-W1.html</id><summary type="html">&lt;h2&gt;開學第一週&lt;/h2&gt;
+&lt;p&gt;p37可攜式系統，是一個不管在課堂中、或是在家裡，只要有電腦，插上隨身碟便能馬上利用p37進行作業的一個移動式系統，&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall W1 BLOG</title><link href="./2018-Fall-Project-Blog-W1.html" rel="alternate"></link><published>2018-09-14T11:00:00+08:00</published><updated>2018-09-14T11:00:00+08:00</updated><author><name>40423214</name></author><id>tag:None,2018-09-14:./2018-Fall-Project-Blog-W1.html</id><summary type="html">&lt;h2&gt;開學第一週&lt;/h2&gt;
 </summary><content type="html">&lt;h2&gt;開學第一週&lt;/h2&gt;
 
 
-&lt;p&gt;這週是開學的第一週，首要的任務就是擁有自己的倉儲，相較於一年級，不同的是這次的個人倉儲是從老師那邊領取，輸入熟悉的"mde.tw"進入老師架設的網站領取個人倉儲，準備開始這學期的倉儲協同課程。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="https://mdecadp2018.github.io/site-40423214/blog/2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:mdecadp2018.github.io,2018-09-10:/site-40423214/blog/2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
+&lt;p&gt;這週是開學的第一週，首要的任務就是擁有自己的倉儲，相較於一年級，不同的是這次的個人倉儲是從老師那邊領取，輸入熟悉的"mde.tw"進入老師架設的網站領取個人倉儲，準備開始這學期的倉儲協同課程。&lt;/p&gt;</content><category term="2018Fall"></category></entry><entry><title>2018 Fall 分組網誌</title><link href="./2018-Fall-Project-Blog.html" rel="alternate"></link><published>2018-09-10T11:00:00+08:00</published><updated>2018-09-10T11:00:00+08:00</updated><author><name>NFUMDE</name></author><id>tag:None,2018-09-10:./2018-Fall-Project-Blog.html</id><summary type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2018 Fall 開始將網際內容管理、投影片與網誌進行整合.&lt;/p&gt;
 
 
