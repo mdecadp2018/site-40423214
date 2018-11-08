@@ -64,12 +64,20 @@
 <v t="leo.20181106233907.5"><vh>引用程式碼</vh></v>
 </v>
 </v>
-<v t="leo.20181106233909.1" a="E"><vh>week6</vh>
+<v t="leo.20181106233909.1"><vh>week6</vh>
 <v t="leo.20181106233909.2" a="E"><vh>week1封面</vh>
 <v t="leo.20181106233909.3"><vh>w1</vh></v>
 </v>
 <v t="leo.20181106233909.4" a="E"><vh>w1內文</vh>
 <v t="leo.20181106233909.5"><vh>引用程式碼</vh></v>
+</v>
+</v>
+<v t="leo.20181108224323.1" a="E"><vh>week7</vh>
+<v t="leo.20181108224323.2" a="E"><vh>week1封面</vh>
+<v t="leo.20181108224323.3"><vh>w1</vh></v>
+</v>
+<v t="leo.20181108224323.4" a="E"><vh>w1內文</vh>
+<v t="leo.20181108224323.5"><vh>引用程式碼</vh></v>
 </v>
 </v>
 </v>
@@ -197,7 +205,10 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180827201621.17"></t>
+<t tx="leo.20180827201621.17">## 協同課程必備三寶
+&lt;p&gt;1.耳機 : 老師上課內容都會錄下來放到網上，如果有不清楚的地方都可以在到網上再聽一次，這時候耳機就派上用場了&lt;/p&gt;
+&lt;p&gt;2.隨身碟 : 強調是可攜式系統的p37，必備隨身碟也是很合理的&lt;/p&gt;
+&lt;p&gt;3.筆記本 : 上課作筆記，不解釋&lt;/p&gt;</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
@@ -293,7 +304,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 </t>
 <t tx="leo.20181106230947.1"># WEEK 1
-## 第一週 </t>
+## 第一週 
+
+</t>
 <t tx="leo.20181106233052.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -311,7 +324,9 @@ Created by [KMOLab](http://lab.kmol.info/)
 						
 </t>
 <t tx="leo.20181106233052.3"># WEEK 2
-## 第二週</t>
+## 第二週
+
+</t>
 <t tx="leo.20181106233052.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -323,34 +338,8 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20181106233052.5">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
+<t tx="leo.20181106233052.5">## p37可攜式系統
+p37可攜式系統，是一個不管在課堂中、或是在家裡，只要有電腦，插上隨身碟便能馬上利用p37進行作業的一個移動式系統。</t>
 <t tx="leo.20181106233856.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -368,7 +357,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181106233856.3"># WEEK 3
-## 第三週 </t>
+## 第三週 
+
+</t>
 <t tx="leo.20181106233856.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -380,7 +371,10 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181106233856.5"></t>
+<t tx="leo.20181106233856.5">## 倉儲版本管理
+在未來工作上，電腦、網路一定是不可或缺的，一項企劃得執行也不可能依靠一己之力去完成，因此企劃中在各階段裡的不同版本，工作交接的新舊版本如何管理便很重要了。
+
+這週就是在教如何利用基礎的git 指令進行版本管理，使用git log就能很快地找出各分支中的新舊版本，也可以搜尋任一版本的代號，利用git checkout切換到該版本進行修改。</t>
 <t tx="leo.20181106233906.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -398,7 +392,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181106233906.3"># WEEK 4
-## 第四週 </t>
+## 第四週 
+
+</t>
 <t tx="leo.20181106233906.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -410,7 +406,7 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181106233906.5"></t>
+<t tx="leo.20181106233906.5"># Happy week!!!!</t>
 <t tx="leo.20181106233907.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -428,7 +424,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181106233907.3"># WEEK 5
-## 第五週 </t>
+## 第五週 
+
+</t>
 <t tx="leo.20181106233907.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -440,7 +438,14 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181106233907.5"></t>
+<t tx="leo.20181106233907.5">## GitHub 版本更新
+將git的版本從
+2.15.1.window.1-----&gt;2.19.1.window.1
+
+輸入git version便可檢查自己的git系統是否為最新版本。
+
+貼心小提醒:
+version=版本</t>
 <t tx="leo.20181106233909.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -458,7 +463,9 @@ make.start()
 						
 </t>
 <t tx="leo.20181106233909.3"># WEEK 6
-## 第六週 </t>
+## 第六週 
+
+</t>
 <t tx="leo.20181106233909.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
@@ -470,6 +477,50 @@ make.start()
 
 						
 </t>
-<t tx="leo.20181106233909.5"></t>
+<t tx="leo.20181106233909.5">## 更改README.md
+這週老師心情好，點了幾個學弟的個人倉儲，發現還是有人沒改README.md裡面的連結，又苦口婆心的再講了一次
+
+標準的連結為
+&lt;p&gt;1.網站&lt;/p&gt;
+&lt;p&gt;2.網誌(Blog)&lt;/p&gt;
+&lt;p&gt;3.個人倉儲&lt;/p&gt;
+其他的連結則依照個人喜好做設定，我則是多放了一個onshape的連結，方便以後在做onshape作業時的操作。</t>
+<t tx="leo.20181108224323.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20181108224323.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108224323.3"># WEEK 7
+## 第七週 
+
+</t>
+<t tx="leo.20181108224323.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20181108224323.5">## 使用leo編輯Blog
+&lt;p&gt;有同學問我怎麼編輯自己的Blog&lt;/p&gt;
+&lt;p&gt;以下為進入leo編輯Blog的步驟&lt;/p&gt;
+&lt;p&gt;1.git clone自己的倉儲&lt;/p&gt;
+&lt;p&gt;2.開啟個人倉儲資料夾，路徑為tmp&gt;site-學號&gt;config&gt;pelicen.leo&lt;/p&gt;
+&lt;p&gt;3.將pelicen.leo直接拉進leo即可&lt;/p&gt;</t>
 </tnodes>
 </leo_file>
