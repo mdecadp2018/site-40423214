@@ -61,7 +61,7 @@ $(function(){
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='40423214期中HW.html'>40423214期中HW</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='Week7.html'>Week7</a></li></ul><li><a href='40423214分組HW.html'>40423214分組HW</a><ul><li><a href='Week10.html'>Week10</a><li><a href='Week11.html'>Week11</a><li><a href='Week12.html'>Week12</a><li><a href='Week13.html'>Week13</a><li><a href='Week14.html'>Week14</a></li></ul><li><a href='Onshpae.html'>Onshpae</a><ul><li><a href='Onshape week1.html'>Onshape week1</a><li><a href='Onshape week2.html'>Onshape week2</a><li><a href='Onshape week3.html'>Onshape week3</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week13 << <a href='Week13.html'>Previous</a> <a href='Onshpae.html'>Next</a> >> Onshpae<br /><h1>Week14</h1>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><li><a href='簡介.html'>簡介</a><ul><li><a href='CMSimfly 網站.html'>CMSimfly 網站</a><li><a href='reveal 投影片.html'>reveal 投影片</a><li><a href='pelican 網誌.html'>pelican 網誌</a></li></ul><li><a href='40423214期中HW.html'>40423214期中HW</a><ul><li><a href='Week1.html'>Week1</a><li><a href='Week2.html'>Week2</a><li><a href='Week3.html'>Week3</a><li><a href='week5.html'>week5</a><li><a href='week6.html'>week6</a><li><a href='Week7.html'>Week7</a></li></ul><li><a href='40423214分組HW.html'>40423214分組HW</a><ul><li><a href='Week10.html'>Week10</a><li><a href='Week11.html'>Week11</a><li><a href='Week12.html'>Week12</a><li><a href='Week13.html'>Week13</a><li><a href='Week14~15.html'>Week14~15</a></li></ul><li><a href='Onshpae.html'>Onshpae</a><ul><li><a href='Onshape week1.html'>Onshape week1</a><li><a href='Onshape week2.html'>Onshape week2</a><li><a href='Onshape week3.html'>Onshape week3</a></li></ul><li><a href='Python 手冊.html'>Python 手冊</a><li><a href='OnShape 手冊.html'>OnShape 手冊</a><li><a href='Fusion 360.html'>Fusion 360</a></li></ul></nav><section>Week13 << <a href='Week13.html'>Previous</a> <a href='Onshpae.html'>Next</a> >> Onshpae<br /><h1>Week14~15</h1>
 <p>本週進度為V-REP的操作練習</p>
 <p>進入<a href="http://mde.tw/#/">mde.tw&nbsp;</a> &gt;<a href="https://mdecp2018.github.io/finalproject-bgx/content/index.html">cpdgx</a> &gt;右邊的 課程專題&gt;電腦輔助設計議題&gt;參考連結裡的第一個網址</p>
 <p><a href="http://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm"> V-REP教學</a></p>
@@ -82,8 +82,25 @@ $(function(){
 <p>8.將零碎的零件組合成小部件，總共會有七個，重新命名為"redundantRob_link1~redundantRob_link7"</p>
 <p>七個旋轉軸則命名為"redundantRob_joint1~redundantRob_joint7"</p>
 <p>並將左方欄位支連件順序以一個部件接一個旋轉軸的方式組合，如下圖</p>
-<p><img src="./../images/vrep1.PNG" width="304" height="404" alt=""></p>
+<p><img src="./../images/vrep1.PNG" alt="" width="304" height="404"></p>
+<p>9.選取全部旋轉軸，開啟旋轉軸對話框，將mode更改成"inverse kinematics"</p>
+<p><img src="./../images/arm1.PNG" alt="" width="320" height="441"></p>
+<p>再來切換到common，將以打勾的圖層2取消，改成圖層10</p>
+<p><img src="./../images/arm2.PNG" alt="" width="320" height="507"></p>
+<p>10.新噌一個dummy，命名為"redundantRob_tip"並將其位置設在(0.324,0.62)，然後將此dummy與redundantRob_link7組合，[Menu bar --&gt; Edit --&gt; Make last selected object parent]</p>
+<p>複製此dummy並將其命名為"redundantRob_target"雙擊"redundantRob_target"</p>
+<p>將內容更改成如下圖</p>
+<p><img src="./../images/arm3.PNG" alt="" width="317" height="341"></p>
+<p><img src="./../images/arm4.PNG" alt="" width="318" height="504"></p>
+<p>設定完成之後target與tip之間會有一條紅線將他們相連。</p>
+<p></p>
+<p>11.接著，打開inverse kinematics dialog，點擊<strong>Add new IK group</strong>，跑出一個"IK_Group"之後點取它，再點下面的<strong>Edit IK elements</strong>按鈕，在<strong> IK group</strong>視窗裡，選擇"redundantRob_tip"再點擊<strong>Add new IK element with tip</strong>按鈕，更改其內容，如下圖</p>
+<p><img src="./../images/arm6.PNG" alt="" width="307" height="429"></p>
+<p>更改完之後再出來修改inverse kinematics dialog裡面的內容。如下圖</p>
+<p><img src="./../images/arm7.PNG" alt="" width="299" height="483"></p>
+<p>12.新增"manipulation sphere"來控制積血手臂， [Menu bar --&gt; Add --&gt; Primitive shape --&gt; Sphere] ，分別將xyz的尺寸都設為0.05，將以打勾的<strong>Create dynamic and respondable shape</strong>選項取消，點選ok</p>
+<p>重新命名"redundantRob_manipSphere"後將它與target結合</p>
+<p><img src="./../images/arm5.PNG" alt="" width="483" height="345"></p>
 <p></p>
 <p></p>
-<p>先附上半完成圖</p>
-<p><img src="./../images/手臂.PNG" alt="" width="556" height="432"></p><br />Week13 << <a href='Week13.html'>Previous</a> <a href='Onshpae.html'>Next</a> >> Onshpae</section></div></body></html>
+<p></p><br />Week13 << <a href='Week13.html'>Previous</a> <a href='Onshpae.html'>Next</a> >> Onshpae</section></div></body></html>
